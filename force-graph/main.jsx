@@ -81,7 +81,7 @@ fetch("mainData.json")
           ref={fgRef}
           graphData={imageGraphData}
           onEngineStop={() => fgRef.current?.zoomToFit(1000)}
-          nodeVal={(node) => node.value*4}
+          nodeVal={(node) => node.value*10}
           nodeRelSize={1}
           cooldownTicks={150}
           nodeLabel="id"
@@ -100,7 +100,7 @@ fetch("mainData.json")
               updatedVal,
             );
           }}
-          nodeCanvasObjectMode={() => "before"}
+          nodeCanvasObjectMode={() => "after"}
           linkDirectionalParticleSpeed={(d) => 0.005 / d.value}
           linkDirectionalParticles={1}
           // linkDirectionalArrowLength={3.5}
