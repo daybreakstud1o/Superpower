@@ -81,6 +81,7 @@ fetch("mainData.json")
           ref={fgRef}
           graphData={imageGraphData}
           onEngineStop={() => fgRef.current?.zoomToFit(1000)}
+          nodeVal={(node) => node.value}
           cooldownTicks={150}
           nodeLabel="id"
           backgroundColor="white"
