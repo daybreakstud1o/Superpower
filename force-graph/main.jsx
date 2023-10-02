@@ -100,7 +100,7 @@ fetch("mainData.json")
               updatedVal,
             );
           }}
-          nodeCanvasObjectMode={() => "after"}
+          nodeCanvasObjectMode={() => "replace"}
           linkDirectionalParticleSpeed={(d) => 0.005 / d.value}
           linkDirectionalParticles={1}
           // linkDirectionalArrowLength={3.5}
