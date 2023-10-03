@@ -112,6 +112,9 @@ fetch("mainData.json")
           // dagNodeFilter={(node: Node) => node.value > 70}
           dagLevelDistance={75}
           onNodeHover={handleNodeHover}
+
+
+          linkWidth={(link) => 2}
         />
       );
     };
