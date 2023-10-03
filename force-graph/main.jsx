@@ -35,6 +35,8 @@ fetch("https://daybreak-superpower.netlify.app/force-graph/mainData.json")
       };
 
       const paintRing = (node, ctx) => {
+        ctx.font = "regular 'nb international pro'";
+
         const { x, y, value, img } = node;
         const updatedVal = value / 1.5;
         ctx.fillStyle = "red";
