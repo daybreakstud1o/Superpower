@@ -12,7 +12,7 @@ fetch("https://daybreak-superpower.netlify.app/force-graph/mainData.json")
           return;
         }
         const img = new Image();
-        img.src = `./images/${node.img}`;
+        img.src = `https://daybreak-superpower.netlify.app/force-graph/images/${node.img}`;
         return img;
       });
       const [images, setImages] = useState(imgs);
