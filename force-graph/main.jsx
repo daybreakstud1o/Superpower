@@ -76,15 +76,22 @@ fetch("https://daybreak-superpower.netlify.app/force-graph/mainData.json")
 
       return (
         <ForceGraph2D
+        // MAIN ATTRIBUTES
           width={window.innerWidth - 100}
           height={window.innerHeight - 100}
           ref={fgRef}
           graphData={imageGraphData}
-          onEngineStop={() => fgRef.current?.zoomToFit(1000)}
+
+        // NODES
           nodeVal={(node) => node.value*10}
           nodeRelSize={1}
           cooldownTicks={150}
           nodeLabel="id"
+
+          // ZOOM
+          onEngineStop={() => fgRef.current?.zoomToFit(1000)}
+
+        // STYLING
           backgroundColor="white"
           // linkWidth={1}black"}
           nodeCanvasObject={(node, ctx) => paintRing(node, ctx)}
@@ -101,20 +108,29 @@ fetch("https://daybreak-superpower.netlify.app/force-graph/mainData.json")
             );
           }}
           nodeCanvasObjectMode={() => "replace"}
+
+
+          // LINKS
+          linkWidth={(link) => 2}
+
+          // LINK PARTICLES
           linkDirectionalParticleSpeed={(d) => 0.005 / d.value}
           linkDirectionalParticles={1}
           // linkDirectionalArrowLength={3.5}
           linkDirectionalParticleColor={() => "orange"}
           linkDirectionalParticleWidth={(node) => 4 - node.value}
           // linkCurvature={link => link.curvature}
-          // d3VelocityDecay={.2}
-          // d3AlphaMin={0.1}
-          // dagNodeFilter={(node: Node) => node.value > 70}
+
           dagLevelDistance={75}
+
+          // INTERACTIVITY
           onNodeHover={handleNodeHover}
+          enablePanInteraction={false}
+          enableZoomPanInteraction={false}
 
 
-          linkWidth={(link) => 2}
+
+
         />
       );
     };
