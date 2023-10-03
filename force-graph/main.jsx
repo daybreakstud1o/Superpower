@@ -1,5 +1,5 @@
 const { useRef, useState, useCallback } = React;
-fetch("mainData.json")
+fetch("https://daybreak-superpower.netlify.app/force-graph/mainData.json")
   .then((res) => res.json())
   .then((graphData) => {
     // const { ForceGraph2D } = ReactForceGraph;
