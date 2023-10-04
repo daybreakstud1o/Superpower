@@ -8,7 +8,7 @@
       "img": "superpower.png",
       "imageBool": true,
       "color": "grey",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Physical Health",
@@ -18,7 +18,7 @@
       "img": "physical-health.png",
       "imageBool": true,
       "color": "grey",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Mental Health",
@@ -28,7 +28,7 @@
       "img": "mental-health.png",
       "imageBool": true,
       "color": "grey",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Environment",
@@ -38,7 +38,7 @@
       "img": "environment.png",
       "imageBool": true,
       "color": "grey",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Sleep",
@@ -48,7 +48,7 @@
       "img": "sleep.png",
       "imageBool": true,
       "color": "grey",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Nutrition",
@@ -58,7 +58,7 @@
       "img": "nutrition.png",
       "imageBool": true,
       "color": "grey",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Physical Fitness",
@@ -66,9 +66,9 @@
       "desc": "Your ability to perform daily physically demanding activities effectively.",
       "value": 25,
       "img": "physical-fitness.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Physiological Health",
@@ -76,9 +76,9 @@
       "desc": "Physiological health refers to the optimal functioning of your bodily systems and processes, such as your organs, nervous system, immune response, and hormonal balance.",
       "value": 25,
       "img": "physiological-health.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Genetics",
@@ -86,9 +86,9 @@
       "desc": "Your germline genetic screening and family history evaluation for susceptibility to diseases or phenotypical dysfunctions.",
       "value": 25,
       "img": "genetics.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Disease Risk",
@@ -96,9 +96,9 @@
       "desc": "The predisposition or vulnerability for you to develop physiological disorders.",
       "value": 25,
       "img": "disease-risk.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Emotional Well-being",
@@ -106,9 +106,9 @@
       "desc": "Emotional well-being relates to your ability to effectively manage and express your emotions in a healthy manner. It encompasses feelings of happiness, sadness, anxiety, as well as the capacity to cope with life's challenges in a constructive way.",
       "value": 25,
       "img": "emotional-well-being.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Cognitive Function",
@@ -116,9 +116,9 @@
       "desc": "Mental capabilities that are required for the processing of information, decision-making, problem-solving, learning, and memory. Optimal cognitive function ensures that you can think clearly, remember information, and engage in logical reasoning.",
       "value": 25,
       "img": "cognitive-function.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Stress Management",
@@ -126,9 +126,9 @@
       "desc": "Stress Management refers to your strategies, coping mechanisms, and techniques to handle or mitigate stress in life.",
       "value": 25,
       "img": "stress-management.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Spirituality and Purpose",
@@ -136,9 +136,9 @@
       "desc": "A sense of meaning and purpose in life, whether through personal beliefs, values, or a broader sense of connection to the universe or a higher power.",
       "value": 25,
       "img": "spirituality-and-purpose.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Community, Relationships, and Social Satisfaction",
@@ -146,9 +146,9 @@
       "desc": "The quality and depth of your social connections – including friendships, family and romantic ties, as well as community involvement.",
       "value": 25,
       "img": "community-relationships-and-social-satisfaction.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "subconscious work and understanding your 'inner child'",
@@ -156,9 +156,9 @@
       "desc": "Inner work is the intentional and conscientious practice of unraveling and examining your motives, fixations, and subconscious programming.",
       "value": 25,
       "img": "subconscious-work-and-understanding-your-inner-child.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Physical Environment",
@@ -166,9 +166,9 @@
       "desc": "The physical environment refers to the tangible external factors and conditions that surround you, which can influence your physiological and biochemical health processes. This includes elements like air quality, water quality, exposure to toxins or pollutants, access to clean foods, radiation levels, and other external factors that can either support or hinder optimal health. A well-balanced physical environment promotes health by minimizing exposures to harmful elements and maximizing beneficial ones.",
       "value": 25,
       "img": "physical-environment.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Social Environment",
@@ -176,9 +176,9 @@
       "desc": "The social environment encompasses the intricate web of relationships, social structures, cultural norms, and interactions that you are embedded in. This includes family dynamics, friendships, work relationships, community ties, and broader societal factors. A supportive social environment can foster emotional well-being, reduce stress, and provide networks for sharing health-promoting resources and information. On the flip side, negative or toxic social environments can lead to increased stress, feelings of isolation, and negative health outcomes.",
       "value": 25,
       "img": "social-environment.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Diet",
@@ -186,9 +186,9 @@
       "desc": "The foods, supplements, and liquids you are consuming on a daily basis (measured by calories, macro and micronutrient type, and any associated toxin levels).",
       "value": 25,
       "img": "diet.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Macronutrient",
@@ -196,9 +196,9 @@
       "desc": "Macronutrients are the primary nutrients that your body needs in large amounts to function properly. The three primary macronutrients are carbohydrates, proteins, and fats.",
       "value": 25,
       "img": "macronutrient.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Micronutrient",
@@ -206,9 +206,9 @@
       "desc": "Micronutrients are essential vitamins, minerals, and antioxidant stores required by your body in small amounts for proper growth, development, and physiological functioning. Though required in minute quantities, their absence or deficiency can lead to significant health problems.",
       "value": 25,
       "img": "micronutrient.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Gut Health",
@@ -216,9 +216,9 @@
       "desc": "Gut health refers to the balance and well-being of the microbiota (bacteria and other microorganisms) present in your digestive tracts, as well as the strength, integrity, and inflammation levels of your intestinal walls that separate the digestive tract from your bloodstream and other organs.",
       "value": 25,
       "img": "gut-health.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Allergies",
@@ -226,9 +226,9 @@
       "desc": "Allergies are hypersensitive immune responses of your body to substances that either enter or come into contact with it. Common allergens include foods and environmental triggers like pollen.",
       "value": 25,
       "img": "allergies.png",
-      "imageBool": false,
+      "imageBool": true,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Hydration",
@@ -238,7 +238,7 @@
       "img": "hydration.png",
       "imageBool": false,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Sleep Quality",
@@ -248,7 +248,7 @@
       "img": "sleep-quality.png",
       "imageBool": false,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Sleep Duration",
@@ -258,7 +258,7 @@
       "img": "sleep-duration.png",
       "imageBool": false,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Sleep Disorders",
@@ -268,7 +268,7 @@
       "img": "sleep-disorders.png",
       "imageBool": false,
       "color": "black",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Metabolism",
@@ -278,7 +278,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "metabolism.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Body Composition",
@@ -288,7 +288,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "body-composition.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Flexibility",
@@ -298,7 +298,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "flexibility.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Muscular Strength",
@@ -308,7 +308,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "muscular-strength.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Cardiovascular Endurance",
@@ -318,7 +318,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "cardiovascular-endurance.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Cardiometabolic",
@@ -328,7 +328,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "cardiometabolic.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Heart Health (Cardiovascular Risk)",
@@ -338,7 +338,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "heart-health-cardiovascular-risk.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Liver Health",
@@ -348,7 +348,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "liver-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Kidney Health",
@@ -358,7 +358,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "kidney-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Immune Health",
@@ -368,7 +368,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "immune-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Skeletal and Bone Health",
@@ -378,7 +378,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "skeletal-and-bone-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Blood and Oxygen",
@@ -388,7 +388,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "blood-and-oxygen.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Hormone Health",
@@ -398,7 +398,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "hormone-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Skin, Hair, and Nails Health",
@@ -408,7 +408,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "skin-hair-and-nails-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Nervous System Health",
@@ -418,7 +418,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "nervous-system-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Oral and Dental Health",
@@ -428,7 +428,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "oral-and-dental-health.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Germline Disease Risk",
@@ -438,7 +438,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "germline-disease-risk.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Pharmacogenetics",
@@ -448,7 +448,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "pharmacogenetics.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Nutritional Absorption",
@@ -458,7 +458,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "nutritional-absorption.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Epigenetic Age Clocks",
@@ -468,7 +468,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "epigenetic-age-clocks.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Cancer",
@@ -478,7 +478,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "cancer.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Depression",
@@ -488,7 +488,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "depression.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Anxiety",
@@ -498,7 +498,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "anxiety.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Happiness and Satisfaction",
@@ -508,7 +508,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "happiness-and-satisfaction.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Memory",
@@ -518,7 +518,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "memory.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Focus and Attention",
@@ -528,7 +528,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "focus-and-attention.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Productivity",
@@ -538,7 +538,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "productivity.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Air Quality",
@@ -548,7 +548,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "air-quality.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Water Quality",
@@ -558,7 +558,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "water-quality.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Allergen Exposure",
@@ -568,7 +568,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "allergen-exposure.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Toxin Exposure",
@@ -578,7 +578,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "toxin-exposure.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Bacterial Exposure",
@@ -588,7 +588,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "bacterial-exposure.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Community",
@@ -598,7 +598,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "community.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Friends",
@@ -608,7 +608,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "friends.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Family relationships",
@@ -618,7 +618,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "family-relationships.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Intimate relationships",
@@ -628,7 +628,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "intimate-relationships.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Protein intake",
@@ -638,7 +638,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "protein-intake.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Carbohydrate intake",
@@ -648,7 +648,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "carbohydrate-intake.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Fat intake",
@@ -658,7 +658,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "fat-intake.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Vitamins",
@@ -668,7 +668,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "vitamins.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Minerals",
@@ -678,7 +678,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "minerals.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Omegas",
@@ -688,7 +688,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "omegas.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Antioxidants",
@@ -698,7 +698,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "antioxidants.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Organic Acids",
@@ -708,7 +708,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "organic-acids.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Microbiome Diversity",
@@ -718,7 +718,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "microbiome-diversity.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Intestinal Wall Permeability",
@@ -728,7 +728,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "intestinal-wall-permeability.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Intestinal Inflammation",
@@ -738,7 +738,7 @@
       "imageBool": false,
       "color": "grey",
       "img": "intestinal-inflammation.png",
-      "neighbors": ""
+      "neighbors": []
     },
     {
       "id": "Antibody testing",
