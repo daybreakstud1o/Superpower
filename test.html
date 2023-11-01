@@ -39,9 +39,9 @@
         <h1>test</h1>
         <h1>test</h1>
         <div id="graph"></div>
-        <video id="myVideo" src="/Tube-Graph-Scroll-.mp4" width="640" height="360" controls autoplay muted>
-          Your browser does not support the video tag.
-        </video>
+        <div style="height: 300vh;">
+            <div id="scrolly-video"></div>
+          </div>
         <h1>test</h1>
         <h1>test</h1>
         <h1>test</h1>
@@ -57,26 +57,13 @@
         <h1>test</h1>
         <h1>test</h1>
         <h1>test</h1>
-        <script>
-            function playVideoOnScroll() {
-              const video = document.getElementById("myVideo"); // Replace with your video element
-              const videoRect = video.getBoundingClientRect();
-              const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-            
-              // Play the video when it is at least 50% visible in the viewport
-              if (videoRect.top <= viewportHeight / 2 && videoRect.bottom >= 0) {
-                video.play();
-              } else {
-                video.pause();
-              }
-            }
-            
-            // Add a scroll event listener to play the video as the user scrolls
-            window.addEventListener('scroll', playVideoOnScroll);
-            
-            // Call the function once on page load to check if the video should be played immediately
-            playVideoOnScroll();
-        </script>
+        <script src="https://cdn.jsdelivr.net/npm/scrolly-video@latest/dist/scrolly-video.js"></script>
+          <script type="text/javascript">
+            new ScrollyVideo({
+              scrollyVideoContainer: "scrolly-video",
+              src: "/Tube-Graph-Scroll-.mp4"
+            });
+          </script>
         <!--<script type="text/javascript" src="https://superpower-dev.netlify.app/index.930e46d8.js"></script> 
         <script>
             setupSuperpowerGraph(document.querySelector('#graph'), 'https://daybreak-superpower.netlify.app/force-graph/images/');
